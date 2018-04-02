@@ -45,6 +45,7 @@ main(int c,char **m){
   SDL_Init(32);
 
   SDL_SetVideoMode(W, H, 32, 536870919);
+  SDL_WM_SetCaption("Cube by mooz",NULL);
   glClearColor (0, 0, 0, 0);
   glClearDepth (1);	
 
